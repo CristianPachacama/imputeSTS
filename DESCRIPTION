@@ -1,0 +1,28 @@
+Package: imputeSTS
+Version: 0.1.0
+Date: 2020-05-22
+Title: Imputation of Seasonal Time Series
+Authors@R: c(person("Cristian","Pachacama",role=c("aut","cre"),email="cristian.pachacama01@epn.edu.ec"),
+             person("Adriana","Uquillas",role=c("aut"),email="adriana.uquillas@epn.edu.ec"))
+Author: Cristian Pachacama [aut,cre]
+    Adriana Uquillas [aut]
+Maintainer: Cristian Pachacama <cristian.pachacama01@gmail.com>
+Depends: R (>= 3.5.0)
+Imports: 
+    stlplus (>= 0.5.1),
+    xts (>= 0.12-0),
+    reshape2 (>= 1.4.3),
+    knitr,
+    stats,
+    ggplot2
+Description: Contains the implementation of methodology created with the objective of 
+    the imputation of missing data in seasonal time series based on STL-Loess Descomposition 
+    (Local Non Paramétric Regression) and Monte Carlo simulation. The package also has 
+    functions for visualization.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+VignetteBuilder: knitr
+Suggests: 
+    TSstudio
