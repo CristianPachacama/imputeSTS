@@ -1,5 +1,11 @@
-imputeSTS
-==========
+#imputeSTS
+
+<!-- badges: start -->
+
+[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+<!-- badges: end -->
 
 The `imputeSTS` package provides a method for imputation of missing values in homoscedastic Seasonal Time Series. based on STL-Loess Descomposition (Local Non Paramétric Regression) and Monte Carlo simulation. The package also has functions for visualization.
 
